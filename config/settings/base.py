@@ -17,7 +17,7 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = config("DEVELOPMENT", cast=bool)
 
 
-ALLOWED_HOSTS = config("SECRET_KEY").split(" ")
+ALLOWED_HOSTS = config("ALLOWED_HOSTS").split(" ")
 
 
 # Application definition
